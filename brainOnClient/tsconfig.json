@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    // ... diğer ayarlarınız ...
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node", // Veya "bundler" kullanıyorsanız
+    "target": "es2017", // Veya daha yeni
+    "module": "esnext" // Veya "commonjs" eğer tarayıcı tarafında değilse veya webpack/rollup kullanılıyorsa
+  },
+}
