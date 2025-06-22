@@ -92,6 +92,13 @@ The dashboard auto‑connects to `ws://localhost:5000`, visualises live EEG/EMG,
 
 ---
 
+## ⚙️ Security Model
+
+![brainOn basic workflow](https://github.com/user-attachments/assets/b1df8819-8fab-4d6a-b7a2-d987eadf7938)
+
+
+---
+
 ## 🗓️ Roadmap (matching open Issues)
 
 -
