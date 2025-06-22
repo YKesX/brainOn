@@ -2,8 +2,8 @@
 
 **BrainOn** is an open‑source, multimodal biometric authentication framework that fuses **electroencephalography (EEG)** and **electromyography (EMG)** to unlock and authorize cryptocurrency wallets. By translating your unique brain‑wave and muscle‑activation signatures into cryptographically secure hashes, BrainOn delivers friction‑free, high‑assurance access control for digital assets.
 
-
-
+This is a Stellar Hack Pera Hackathon project, project presentation:
+https://www.canva.com/design/DAGrDmWBmlU/ejefM7qx-oT7NajoBhnfwA/edit
 ---
 
 ## ✨ Core Features
