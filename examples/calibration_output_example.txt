@@ -1,0 +1,186 @@
+=== Individual Muscle Calibration Tool ===
+This will calibrate each muscle channel individually for optimal accuracy
+
+First, let's measure your baseline (relaxed state)...
+
+Step 1: Stay completely relaxed for 5 seconds...
+Keep all muscles relaxed, don't touch any pins.
+Starting baseline measurement in 3...
+2...
+1...
+Measuring baseline - stay completely relaxed!
+✓ RightPec baseline: 1835
+✓ LeftPec baseline: 1837
+✓ RightQuad baseline: 1822
+✓ LeftLeg baseline: 1832
+
+Now we'll calibrate each muscle individually...
+
+=== Calibrating RightPec (Pin 34) ===
+Instructions: Touch GPIO pin 34 firmly OR flex your right pectoral muscle
+You have 8 seconds to activate this muscle/pin...
+Starting in 3...
+2...
+1...
+ACTIVATE RightPec NOW!
+Time: 0s | Current: 1845 | Peak: 1845
+Time: 0s | Current: 2156 | Peak: 2156
+Time: 1s | Current: 2634 | Peak: 2634
+Time: 1s | Current: 3012 | Peak: 3012
+Time: 2s | Current: 3387 | Peak: 3387
+Time: 2s | Current: 3698 | Peak: 3698
+Time: 3s | Current: 3945 | Peak: 3945
+Time: 3s | Current: 4095 | Peak: 4095
+Time: 4s | Current: 4095 | Peak: 4095
+Time: 4s | Current: 3876 | Peak: 4095
+Time: 5s | Current: 3512 | Peak: 4095
+Time: 5s | Current: 3234 | Peak: 4095
+Time: 6s | Current: 2987 | Peak: 4095
+Time: 6s | Current: 2456 | Peak: 4095
+Time: 7s | Current: 2123 | Peak: 4095
+Time: 7s | Current: 1956 | Peak: 4095
+✓ RightPec calibration complete! Peak: 4095
+Relax for 3 seconds before next muscle...
+
+=== Calibrating LeftPec (Pin 35) ===
+Instructions: Touch GPIO pin 35 firmly OR flex your left pectoral muscle
+You have 8 seconds to activate this muscle/pin...
+Starting in 3...
+2...
+1...
+ACTIVATE LeftPec NOW!
+Time: 0s | Current: 1842 | Peak: 1842
+Time: 0s | Current: 1987 | Peak: 1987
+Time: 1s | Current: 2234 | Peak: 2234
+Time: 1s | Current: 2456 | Peak: 2456
+Time: 2s | Current: 2644 | Peak: 2644
+Time: 2s | Current: 2598 | Peak: 2644
+Time: 3s | Current: 2612 | Peak: 2644
+Time: 3s | Current: 2587 | Peak: 2644
+Time: 4s | Current: 2543 | Peak: 2644
+Time: 4s | Current: 2398 | Peak: 2644
+Time: 5s | Current: 2234 | Peak: 2644
+Time: 5s | Current: 2087 | Peak: 2644
+Time: 6s | Current: 1954 | Peak: 2644
+Time: 6s | Current: 1876 | Peak: 2644
+Time: 7s | Current: 1854 | Peak: 2644
+Time: 7s | Current: 1843 | Peak: 2644
+✓ LeftPec calibration complete! Peak: 2644
+Relax for 3 seconds before next muscle...
+
+=== Calibrating RightQuad (Pin 32) ===
+Instructions: Touch GPIO pin 32 firmly OR flex your right quadriceps
+You have 8 seconds to activate this muscle/pin...
+Starting in 3...
+2...
+1...
+ACTIVATE RightQuad NOW!
+Time: 0s | Current: 1829 | Peak: 1829
+Time: 0s | Current: 2145 | Peak: 2145
+Time: 1s | Current: 2567 | Peak: 2567
+Time: 1s | Current: 2987 | Peak: 2987
+Time: 2s | Current: 3345 | Peak: 3345
+Time: 2s | Current: 3687 | Peak: 3687
+Time: 3s | Current: 3987 | Peak: 3987
+Time: 3s | Current: 4095 | Peak: 4095
+Time: 4s | Current: 4095 | Peak: 4095
+Time: 4s | Current: 3945 | Peak: 4095
+Time: 5s | Current: 3678 | Peak: 4095
+Time: 5s | Current: 3234 | Peak: 4095
+Time: 6s | Current: 2876 | Peak: 4095
+Time: 6s | Current: 2456 | Peak: 4095
+Time: 7s | Current: 2123 | Peak: 4095
+Time: 7s | Current: 1887 | Peak: 4095
+✓ RightQuad calibration complete! Peak: 4095
+Relax for 3 seconds before next muscle...
+
+=== Calibrating LeftLeg (Pin 33) ===
+Instructions: Touch GPIO pin 33 firmly OR flex your left leg muscle
+You have 8 seconds to activate this muscle/pin...
+Starting in 3...
+2...
+1...
+ACTIVATE LeftLeg NOW!
+Time: 0s | Current: 1836 | Peak: 1836
+Time: 0s | Current: 2087 | Peak: 2087
+Time: 1s | Current: 2345 | Peak: 2345
+Time: 1s | Current: 2687 | Peak: 2687
+Time: 2s | Current: 2987 | Peak: 2987
+Time: 2s | Current: 3234 | Peak: 3234
+Time: 3s | Current: 3346 | Peak: 3346
+Time: 3s | Current: 3298 | Peak: 3346
+Time: 4s | Current: 3312 | Peak: 3346
+Time: 4s | Current: 3287 | Peak: 3346
+Time: 5s | Current: 3145 | Peak: 3346
+Time: 5s | Current: 2987 | Peak: 3346
+Time: 6s | Current: 2756 | Peak: 3346
+Time: 6s | Current: 2456 | Peak: 3346
+Time: 7s | Current: 2123 | Peak: 3346
+Time: 7s | Current: 1945 | Peak: 3346
+✓ LeftLeg calibration complete! Peak: 3346
+Relax for 3 seconds before next muscle...
+
+=== Calibration Results ===
+Channel 0 (RightPec): baseline=1835, peak=4095, range=2260, threshold=2626
+Channel 1 (LeftPec): baseline=1837, peak=2644, range=807, threshold=2119
+Channel 2 (RightQuad): baseline=1822, peak=4095, range=2273, threshold=2617
+Channel 3 (LeftLeg): baseline=1832, peak=3346, range=1514, threshold=2361
+
+🎉 Individual muscle calibration complete!
+✅ Thresholds saved to ESP32 memory
+
+=== Starting EEG Brainwave Recording ===
+This will record your brainwave patterns for wallet authentication
+
+--- Phase 1: Baseline Recording ---
+Please just breathe and don't move and don't think.
+Clear your mind completely for the next 5 seconds.
+Starting baseline recording in 3...
+2...
+1...
+Recording baseline - stay completely relaxed and empty your mind!
+✓ Baseline recording complete: 500 samples
+
+--- Phase 2: Wallet Unlock Thought Pattern ---
+Now think about unlocking your wallet. Visualize entering your password,
+seeing your balance, feeling secure access to your funds.
+Focus intensely on this thought for 5 seconds.
+Starting unlock recording in 3...
+2...
+1...
+Think about UNLOCKING YOUR WALLET now!
+✓ Unlock thought recording complete: 500 samples
+
+--- Phase 3: Transaction Thought Pattern ---
+Now think about making a transaction. Visualize sending money,
+confirming the amount, approving the transfer, feeling the completion.
+Focus intensely on this transaction process for 5 seconds.
+Starting transaction recording in 3...
+2...
+1...
+Think about MAKING A TRANSACTION now!
+✓ Transaction thought recording complete: 500 samples
+
+=== Saving EEG Data to File ===
+✅ EEG data saved to /eeg_patterns.csv
+
+=== Generating Example Convincing EEG Patterns ===
+✅ Example EEG patterns saved to /example_eeg_patterns.csv
+
+🎉🧠 Complete Calibration Finished! 🧠🎉
+✅ Muscle thresholds calibrated and saved
+✅ EEG brainwave patterns recorded for 3 states
+✅ Real data saved to /eeg_patterns.csv
+✅ Example convincing data saved to /example_eeg_patterns.csv
+✅ Ready for multi-modal authentication system
+
+Muscle readings: 1842, 1851, 1834, 1845 | EEG readings: 2034, 1987, 2123, 2045, 1934, 2087, 2156, 1998, 2076, 2134, 1967, 2089
+Muscle readings: 1838, 1849, 1829, 1841 | EEG readings: 2028, 1992, 2117, 2051, 1928, 2093, 2149, 2003, 2081, 2128, 1973, 2084
+Muscle readings: 1845, 1855, 1836, 1848 | EEG readings: 2041, 1985, 2131, 2038, 1941, 2079, 2163, 1991, 2094, 2142, 1960, 2097
+Muscle readings: 1841, 1847, 1831, 1844 | EEG readings: 2037, 1999, 2125, 2044, 1937, 2085, 2157, 1997, 2088, 2136, 1966, 2091
+Muscle readings: 1839, 1853, 1833, 1846 | EEG readings: 2031, 1981, 2119, 2049, 1943, 2091, 2151, 2005, 2082, 2130, 1972, 2095
+Muscle readings: 2987, 1848, 1835, 1847 | EEG readings: 2045, 1987, 2133, 2041, 1939, 2077, 2165, 1993, 2096, 2144, 1958, 2099
+Muscle readings: 3456, 1852, 1837, 1849 | EEG readings: 2039, 2001, 2127, 2047, 1945, 2083, 2159, 1999, 2090, 2138, 1964, 2093
+Muscle readings: 3012, 1846, 1832, 1843 | EEG readings: 2033, 1983, 2121, 2053, 1941, 2089, 2153, 2007, 2084, 2132, 1970, 2087
+Muscle readings: 2234, 1850, 1834, 1845 | EEG readings: 2047, 1989, 2135, 2039, 1947, 2075, 2167, 1995, 2098, 2146, 1956, 2101
+Muscle readings: 1843, 1848, 1833, 1844 | EEG readings: 2041, 2003, 2129, 2045, 1943, 2081, 2161, 2001, 2092, 2140, 1962, 2095 
